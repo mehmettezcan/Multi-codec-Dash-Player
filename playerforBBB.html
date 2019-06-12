@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html>
+      <head><title>Multiceodec Player</title>
+      	<style>
+		    video {
+		      width: 75%;
+		      height: 75%;
+		      margin: 10px;
+		    }
+		    .buton{
+
+
+		    }
+	    </style>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      </head>
+      <body onload="setupVideo1()" >
+      	
+        <video id="videoplayer" controls></video>
+        <button class="btn btn-primary" style="float: left; margin: 10px;" onclick="setupVideo1()">AVC</button>
+        <button class="btn btn-primary" style="float: left; margin: 10px;"onclick="setupVideo2()">HEVC</button>
+        <button class="btn btn-primary" style="float: left; margin: 10px;"onclick="setupVideo3()">VP9</button>
+        <button class="btn btn-primary" style="float: left; margin: 10px;"onclick="setupVideo4()">AV1</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/1.3.0/dash.all.js"></script>
+        <script>   
+		function setupVideo1() {
+		  var url = "http://localhost/dash/BBB_2sec/avc.mpd";
+		  var context = new Dash.di.DashContext();
+		  var player = new MediaPlayer(context);
+		                  player.startup();
+		                  player.attachView(document.querySelector("#videoplayer"));
+		                  player.attachSource(url);
+		}
+		function setupVideo2() {
+		  var url = "http://localhost/dash/BBB_2sec/hevc.mpd";
+		  var context = new Dash.di.DashContext();
+		  var player = new MediaPlayer(context);
+		                  player.startup();
+		                  player.attachView(document.querySelector("#videoplayer"));
+		                  player.attachSource(url);
+		}
+		function setupVideo3() {
+		  var url = "http://localhost/dash/BBB_2sec/vp9.mpd";
+		  var context = new Dash.di.DashContext();
+		  var player = new MediaPlayer(context);
+		                  player.startup();
+		                  player.attachView(document.querySelector("#videoplayer"));
+		                  player.attachSource(url);
+		}
+		function setupVideo4() {
+		  var url = "http://localhost/dash/BBB_2sec/av1.mpd";
+		  var context = new Dash.di.DashContext();
+		  var player = new MediaPlayer(context);
+		                  player.startup();
+		                  player.attachView(document.querySelector("#videoplayer"));
+		                  player.attachSource(url);
+		}
+		</script>
+       
+      </body>
+    </html>
