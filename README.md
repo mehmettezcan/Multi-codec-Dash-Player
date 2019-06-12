@@ -2,6 +2,7 @@
 Multi-codec Dash Player for final project
 
 Firstly clone or download the files
+
 Secondly open a node.js commmand prompt, then open the directory path and follow the steps
 
 For BBB video only:
