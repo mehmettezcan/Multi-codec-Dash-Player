@@ -11,63 +11,63 @@
 		<AdaptationSet id="1" group="1" segmentAlignment="true" bitstreamSwitching="true" maxWidth="3840" maxHeight="2160" maxFrameRate="30" par="16:9" lang="en">
 			<BaseURL>http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/</BaseURL>
 			<Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-			<SegmentTemplate initialization="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/avc_init.mp4"/>
+			<SegmentTemplate initialization="avc_init.mp4"/>
 			<Representation id="1" mimeType="video/mp4" codecs="avc3.64000C" width="256" height="144" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="103423">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_100$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_100$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="2" mimeType="video/mp4" codecs="avc3.64000D" width="320" height="180" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="200138">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_200$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_200$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="3" mimeType="video/mp4" codecs="avc3.64000D" width="384" height="216" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="238700">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_240$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_240$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="4" mimeType="video/mp4" codecs="avc3.64000D" width="384" height="216" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="369784">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_375$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_375$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="5" mimeType="video/mp4" codecs="avc3.640015" width="512" height="288" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="539381">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_550$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_550$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="6" mimeType="video/mp4" codecs="avc3.64001E" width="640" height="360" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="733580">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_750$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_750$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="7" mimeType="video/mp4" codecs="avc3.64001E" width="768" height="432" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="976342">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_1000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_1000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="8" mimeType="video/mp4" codecs="avc3.64001F" width="1024" height="576" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="1464807">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_1500$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_1500$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="9" mimeType="video/mp4" codecs="avc3.64001F" width="1280" height="720" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="2247066">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_2300$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_2300$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="10" mimeType="video/mp4" codecs="avc3.64001F" width="1280" height="720" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="2933354">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_3000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_3000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="11" mimeType="video/mp4" codecs="avc3.640032" width="1920" height="1080" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="4198228">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_4300$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_4300$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="12" mimeType="video/mp4" codecs="avc3.640032" width="1920" height="1080" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="5644511">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_5800$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_5800$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="13" mimeType="video/mp4" codecs="avc3.640032" width="2560" height="1440" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="6379150">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_6500$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_6500$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="14" mimeType="video/mp4" codecs="avc3.640032" width="2560" height="1440" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="6863509">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_7000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="15" mimeType="video/mp4" codecs="avc3.640032" width="2560" height="1440" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="7348497">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_7500$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_7500$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="16" mimeType="video/mp4" codecs="avc3.640033" width="3840" height="2160" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="7877779">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_8000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_8000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="17" mimeType="video/mp4" codecs="avc3.640033" width="3840" height="2160" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="11638687">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_12000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_12000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="18" mimeType="video/mp4" codecs="avc3.640033" width="3840" height="2160" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="16372716">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_17000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_17000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 			<Representation id="19" mimeType="video/mp4" codecs="avc3.640033" width="3840" height="2160" frameRate="30" sar="1:1" startWithSAP="1" bandwidth="19243156">
-				<SegmentTemplate media="http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/x264/segment_20000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
+				<SegmentTemplate media="segment_20000$Number$.m4s" timescale="90000" startNumber="1" duration="180000"/>
 			</Representation>
 		</AdaptationSet>
 	</Period>

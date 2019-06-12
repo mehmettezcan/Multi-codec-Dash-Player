@@ -24,7 +24,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/1.3.0/dash.all.js"></script>
         <script>   
 		function setupVideo1() {
-		  var url = "http://localhost/dash/BBB_2sec/avc.mpd";
+		  var url = "dash/BBB_2sec/avc.mpd";
 		  var context = new Dash.di.DashContext();
 		  var player = new MediaPlayer(context);
 		                  player.startup();
@@ -32,7 +32,7 @@
 		                  player.attachSource(url);
 		}
 		function setupVideo2() {
-		  var url = "http://localhost/dash/BBB_2sec/hevc.mpd";
+		  var url = "dash/BBB_2sec/hevc.mpd";
 		  var context = new Dash.di.DashContext();
 		  var player = new MediaPlayer(context);
 		                  player.startup();
@@ -40,7 +40,7 @@
 		                  player.attachSource(url);
 		}
 		function setupVideo3() {
-		  var url = "http://localhost/dash/BBB_2sec/vp9.mpd";
+		  var url = "dash/BBB_2sec/vp9.mpd";
 		  var context = new Dash.di.DashContext();
 		  var player = new MediaPlayer(context);
 		                  player.startup();
@@ -48,7 +48,7 @@
 		                  player.attachSource(url);
 		}
 		function setupVideo4() {
-		  var url = "http://localhost/dash/BBB_2sec/av1.mpd";
+		  var url = "dash/BBB_2sec/av1.mpd";
 		  var context = new Dash.di.DashContext();
 		  var player = new MediaPlayer(context);
 		                  player.startup();
