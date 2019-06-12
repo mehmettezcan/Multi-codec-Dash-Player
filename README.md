@@ -7,11 +7,11 @@ For BBB video only:
 
 >>node runforBBB.js
 
-http://localhost:8080
+and open http://localhost:8080 with your browser.
 
 
 For BBB your own mpd:
 
 >>node runforOther.js
 
-http://localhost:8080
+and open http://localhost:8080 with your browser.
