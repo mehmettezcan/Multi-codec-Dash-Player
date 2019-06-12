@@ -5,7 +5,7 @@ Firstly clone or download the files
 
 Secondly open a node.js commmand prompt, then open the directory path and follow the steps
 
-For BBB video only:
+For BBB video only(BBB codec videos - open http://www.itec.aau.at/ftp/datasets/mmsys18/BBB/BBB_2sec/ and download the videos):
 
 >>node runforBBB.js
 
